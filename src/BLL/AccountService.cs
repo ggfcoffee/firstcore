@@ -35,5 +35,9 @@ namespace BLL
             return "账户名是："+userName;
             //这里是高广飞添加的本地修改
         }
+
+        public void Test()
+        {
+        }
     }
 }
