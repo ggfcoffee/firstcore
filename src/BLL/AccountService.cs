@@ -26,12 +26,14 @@ namespace BLL
             UserRepository = userRepository;
 
             //这里是测试的内容提交  
+            //这里是在服务器上修改的内容测试
         }
 
         public async Task<string> GetAccountName()
         {
             string userName = UserRepository.GetName();
             return "账户名是："+userName;
+            
         }
     }
 }
