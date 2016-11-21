@@ -33,7 +33,7 @@ namespace BLL
         {
             string userName = UserRepository.GetName();
             return "账户名是："+userName;
-            
+            //这里是高广飞添加的本地修改
         }
     }
 }
