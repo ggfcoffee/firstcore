@@ -7,5 +7,8 @@ namespace DAL
 {
     public class RoleRepository
     {
+        public void AddRole()
+        {
+        }
     }
 }
